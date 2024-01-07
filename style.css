@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #87CEFA; /* Light blue background color */
+    color: #333; /* Dark text color for better readability */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.property-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.property {
+    width: 300px;
+    margin: 20px;
+    padding: 15px; /* Increased padding for a more spacious look */
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Rounded corners for a softer appearance */
+    background-color: #fff; /* White background for property cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+    color: #333; /* Dark text color for property details */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
